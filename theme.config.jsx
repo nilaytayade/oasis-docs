@@ -13,13 +13,12 @@ export default {
   project: {
     link: "https://github.com/nilaytayade/oasis-docs",
   },
-docsRepositoryBase:"https://github.com/nilaytayade/oasis-docs",
+  docsRepositoryBase: "https://github.com/nilaytayade/oasis-docs",
   banner: {
     key: "2.0-release",
     text: <a>🎉 OASIS 2.0 is LIVE🚀</a>,
-    },
-  
-    
+  },
+
   footer: {
     text: (
       <span>
@@ -31,4 +30,18 @@ docsRepositoryBase:"https://github.com/nilaytayade/oasis-docs",
       </span>
     ),
   },
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Docs-Oasis🌴-" />
+      <meta property="og:description" content="Policy and articles 🚀" />
+
+      <meta
+        property="og:image"
+        content="https://d10gf95rxwihx0.cloudfront.net/20240615_140019.png"
+      />
+    </>
+  ),
+  
+  
 };
