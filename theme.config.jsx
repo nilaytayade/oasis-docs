@@ -1,12 +1,14 @@
 export default {
   logo: (
-    <>
+    <> 
+<a href="docs.oasis-api.xyz/intro">
       <img
         width="50"
         height="50"
         viewBox="0 0 24 24"
         src="https://res.cloudinary.com/dzhpx2alw/image/upload/v1718634994/20240617_200413_lq8ly4.png"
       ></img>
+</a>
       <span style={{ marginLeft: ".4em", fontWeight: 800 }}>OASIS</span>
     </>
   ),
